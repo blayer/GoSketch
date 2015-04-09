@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment version="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="532"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch 2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iw5-Qd-liF">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="532"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6I-Ub-Mfw">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="  Copyright (c) 2015 Changkun Zhao. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="7Zp-s7-YPd">
+                    <rect key="frame" x="20" y="492" width="441" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="iw5-Qd-liF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="25M-hG-l1C"/>
+                <constraint firstAttribute="bottom" secondItem="7Zp-s7-YPd" secondAttribute="bottom" constant="20" id="EhZ-Zd-kQ0"/>
+                <constraint firstAttribute="bottom" secondItem="iw5-Qd-liF" secondAttribute="bottom" id="Eqm-Wb-s0e"/>
+                <constraint firstAttribute="trailing" secondItem="iw5-Qd-liF" secondAttribute="trailing" id="WH4-kV-zTm"/>
+                <constraint firstAttribute="trailing" secondItem="7Zp-s7-YPd" secondAttribute="trailing" constant="20" id="Waw-AP-cW4"/>
+                <constraint firstItem="iw5-Qd-liF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="scm-B6-mjL"/>
+                <constraint firstItem="7Zp-s7-YPd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="wJ0-OS-lwj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="481"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="launch 2.jpg" width="1080" height="1920"/>
+    </resources>
+</document>
