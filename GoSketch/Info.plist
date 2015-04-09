@@ -23,9 +23,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSMainNibFile</key>
-	<string>LaunchScreen 2</string>
+	<string>Launch Screen</string>
 	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen 2</string>
+	<string>Launch Screen</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

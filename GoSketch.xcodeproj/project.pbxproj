@@ -44,7 +44,7 @@
 		83A4813D1AD6DCAA00905A79 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4813C1AD6DCAA00905A79 /* QuartzCore.framework */; };
 		83A4813F1AD6DCB400905A79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4813E1AD6DCB400905A79 /* CoreGraphics.framework */; };
 		83A481411AD6DCBE00905A79 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A481401AD6DCBE00905A79 /* CoreFoundation.framework */; };
-		83A481441AD6DD8700905A79 /* LaunchScreen 2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A481421AD6DD8700905A79 /* LaunchScreen 2.xib */; };
+		83A4814A1AD6E40A00905A79 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A481491AD6E40A00905A79 /* Launch Screen.xib */; };
 		BF66608CB64D8D57DF0AFD84 /* libPods-GoSketch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 603169DCEE427BF1FA370BCA /* libPods-GoSketch.a */; };
 /* End PBXBuildFile section */
 
@@ -108,7 +108,7 @@
 		83A4813C1AD6DCAA00905A79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		83A4813E1AD6DCB400905A79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		83A481401AD6DCBE00905A79 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		83A481431AD6DD8700905A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/LaunchScreen 2.xib"; sourceTree = "<group>"; };
+		83A481491AD6E40A00905A79 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,9 +170,9 @@
 				83A480D51AD6DAAA00905A79 /* AppDelegate.h */,
 				83A480D61AD6DAAA00905A79 /* AppDelegate.m */,
 				83A480E11AD6DAAA00905A79 /* Images.xcassets */,
-				83A481421AD6DD8700905A79 /* LaunchScreen 2.xib */,
 				83A480D81AD6DAAA00905A79 /* GoSketch.xcdatamodeld */,
 				83A480D11AD6DAAA00905A79 /* Supporting Files */,
+				83A481491AD6E40A00905A79 /* Launch Screen.xib */,
 			);
 			path = GoSketch;
 			sourceTree = "<group>";
@@ -348,13 +348,13 @@
 				83A481291AD6DBEE00905A79 /* wood.jpg in Resources */,
 				83A4812C1AD6DBEE00905A79 /* Checkmark-64.png in Resources */,
 				83A4811D1AD6DBEE00905A79 /* bar.jpg in Resources */,
+				83A4814A1AD6E40A00905A79 /* Launch Screen.xib in Resources */,
 				83A4812F1AD6DBEE00905A79 /* Home Filled-50.png in Resources */,
 				83A481211AD6DBEE00905A79 /* new.png in Resources */,
 				83A481321AD6DBEE00905A79 /* Paint Palette-50.png in Resources */,
 				83A481201AD6DBEE00905A79 /* Marker Pen-50.png in Resources */,
 				83A4812B1AD6DBEE00905A79 /* Checkmark Filled-50.png in Resources */,
 				83A481261AD6DBEE00905A79 /* screenshot3.png in Resources */,
-				83A481441AD6DD8700905A79 /* LaunchScreen 2.xib in Resources */,
 				83A481301AD6DBEE00905A79 /* Info-50.png in Resources */,
 				83A4813B1AD6DC0900905A79 /* Main_iPhone.storyboard in Resources */,
 				83A4813A1AD6DC0900905A79 /* Main_iPad.storyboard in Resources */,
@@ -463,14 +463,6 @@
 				83A481391AD6DC0900905A79 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		83A481421AD6DD8700905A79 /* LaunchScreen 2.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83A481431AD6DD8700905A79 /* Base */,
-			);
-			name = "LaunchScreen 2.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
