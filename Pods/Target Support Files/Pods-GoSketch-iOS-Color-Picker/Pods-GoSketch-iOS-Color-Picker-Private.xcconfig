@@ -1,0 +1,5 @@
+#include "Pods-GoSketch-iOS-Color-Picker.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/iOS-Color-Picker" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/iOS-Color-Picker"
+OTHER_LDFLAGS = ${PODS_GOSKETCH_IOS_COLOR_PICKER_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
