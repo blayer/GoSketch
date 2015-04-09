@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0061066E9D68FA1E10CCB174"
+               BlueprintIdentifier = "F99A057B21E56E7F08A30EBC"
                BuildableName = "libPods-GoSketch.a"
                BlueprintName = "Pods-GoSketch"
                ReferencedContainer = "container:Pods.xcodeproj">
