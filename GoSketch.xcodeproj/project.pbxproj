@@ -11,7 +11,6 @@
 		83A480D71AD6DAAA00905A79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A480D61AD6DAAA00905A79 /* AppDelegate.m */; };
 		83A480DA1AD6DAAA00905A79 /* GoSketch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83A480D81AD6DAAA00905A79 /* GoSketch.xcdatamodeld */; };
 		83A480E21AD6DAAA00905A79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A480E11AD6DAAA00905A79 /* Images.xcassets */; };
-		83A480E51AD6DAAA00905A79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A480E31AD6DAAA00905A79 /* LaunchScreen.xib */; };
 		83A480F11AD6DAAA00905A79 /* GoSketchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A480F01AD6DAAA00905A79 /* GoSketchTests.m */; };
 		83A4811B1AD6DBEE00905A79 /* DrawPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A480FA1AD6DBEE00905A79 /* DrawPageViewController.m */; };
 		83A4811C1AD6DBEE00905A79 /* MainSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A480FB1AD6DBEE00905A79 /* MainSelectionViewController.m */; };
@@ -70,7 +69,6 @@
 		83A480D61AD6DAAA00905A79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		83A480D91AD6DAAA00905A79 /* GoSketch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoSketch.xcdatamodel; sourceTree = "<group>"; };
 		83A480E11AD6DAAA00905A79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		83A480E41AD6DAAA00905A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		83A480EA1AD6DAAA00905A79 /* GoSketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoSketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A480EF1AD6DAAA00905A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A480F01AD6DAAA00905A79 /* GoSketchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoSketchTests.m; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 				83A480D51AD6DAAA00905A79 /* AppDelegate.h */,
 				83A480D61AD6DAAA00905A79 /* AppDelegate.m */,
 				83A480E11AD6DAAA00905A79 /* Images.xcassets */,
-				83A480E31AD6DAAA00905A79 /* LaunchScreen.xib */,
 				83A481421AD6DD8700905A79 /* LaunchScreen 2.xib */,
 				83A480D81AD6DAAA00905A79 /* GoSketch.xcdatamodeld */,
 				83A480D11AD6DAAA00905A79 /* Supporting Files */,
@@ -365,7 +362,6 @@
 				83A481271AD6DBEE00905A79 /* screenshot4.png in Resources */,
 				83A4811E1AD6DBEE00905A79 /* knob.png in Resources */,
 				83A4812E1AD6DBEE00905A79 /* Eraser-64.png in Resources */,
-				83A480E51AD6DAAA00905A79 /* LaunchScreen.xib in Resources */,
 				83A481231AD6DBEE00905A79 /* PBHandFont.ttf in Resources */,
 				83A481311AD6DBEE00905A79 /* Marker Pen-white.png in Resources */,
 				83A4811F1AD6DBEE00905A79 /* launch 2.jpg in Resources */,
@@ -453,14 +449,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		83A480E31AD6DAAA00905A79 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83A480E41AD6DAAA00905A79 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
 		83A481361AD6DC0900905A79 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
