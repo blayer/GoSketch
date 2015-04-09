@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  GoSketch
 //
-//  Created by Changkun Zhao on 4/9/15.
+//  Created by Changkun Zhao on 4/2/15.
 //  Copyright (c) 2015 Changkun Zhao. All rights reserved.
 //
 
@@ -17,6 +17,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    CGSize iOSDeviceScreenSize = [[UIScreen mainScreen] bounds].size;
+    // for iphone 6 plus and ipad
+    if (iOSDeviceScreenSize.height >=736)
+    {
+        UIStoryboard *iPadStoryboard = [UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil];
+        UIViewController *initialViewController = [iPadStoryboard instantiateInitialViewController];
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        self.window.rootViewController  = initialViewController;
+        [self.window makeKeyAndVisible];
+    }
+    
+    else
+    {
+        UIStoryboard *iPhoneStoryboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
+        UIViewController *initialViewController = [iPhoneStoryboard instantiateInitialViewController];
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        self.window.rootViewController  = initialViewController;
+        [self.window makeKeyAndVisible];
+    }
+
+    
+    
     return YES;
 }
 
@@ -51,7 +75,7 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
-    // The directory the application uses to store the Core Data store file. This code uses a directory named "zhaochk.GoSketch" in the application's documents directory.
+    // The directory the application uses to store the Core Data store file. This code uses a directory named "zhaochk.PaintBoard" in the application's documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
@@ -60,7 +84,7 @@
     if (_managedObjectModel != nil) {
         return _managedObjectModel;
     }
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"GoSketch" withExtension:@"momd"];
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"PaintBoard" withExtension:@"momd"];
     _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     return _managedObjectModel;
 }
@@ -74,7 +98,7 @@
     // Create the coordinator and store
     
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"GoSketch.sqlite"];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"PaintBoard.sqlite"];
     NSError *error = nil;
     NSString *failureReason = @"There was an error creating or loading the application's saved data.";
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {

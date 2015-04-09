@@ -10,11 +10,43 @@
 		83A480D41AD6DAAA00905A79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A480D31AD6DAAA00905A79 /* main.m */; };
 		83A480D71AD6DAAA00905A79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A480D61AD6DAAA00905A79 /* AppDelegate.m */; };
 		83A480DA1AD6DAAA00905A79 /* GoSketch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83A480D81AD6DAAA00905A79 /* GoSketch.xcdatamodeld */; };
-		83A480DD1AD6DAAA00905A79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A480DC1AD6DAAA00905A79 /* ViewController.m */; };
-		83A480E01AD6DAAA00905A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A480DE1AD6DAAA00905A79 /* Main.storyboard */; };
 		83A480E21AD6DAAA00905A79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A480E11AD6DAAA00905A79 /* Images.xcassets */; };
 		83A480E51AD6DAAA00905A79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A480E31AD6DAAA00905A79 /* LaunchScreen.xib */; };
 		83A480F11AD6DAAA00905A79 /* GoSketchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A480F01AD6DAAA00905A79 /* GoSketchTests.m */; };
+		83A4811B1AD6DBEE00905A79 /* DrawPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A480FA1AD6DBEE00905A79 /* DrawPageViewController.m */; };
+		83A4811C1AD6DBEE00905A79 /* MainSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A480FB1AD6DBEE00905A79 /* MainSelectionViewController.m */; };
+		83A4811D1AD6DBEE00905A79 /* bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A480FE1AD6DBEE00905A79 /* bar.jpg */; };
+		83A4811E1AD6DBEE00905A79 /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A480FF1AD6DBEE00905A79 /* knob.png */; };
+		83A4811F1AD6DBEE00905A79 /* launch 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A481001AD6DBEE00905A79 /* launch 2.jpg */; };
+		83A481201AD6DBEE00905A79 /* Marker Pen-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481011AD6DBEE00905A79 /* Marker Pen-50.png */; };
+		83A481211AD6DBEE00905A79 /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481021AD6DBEE00905A79 /* new.png */; };
+		83A481221AD6DBEE00905A79 /* past.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481031AD6DBEE00905A79 /* past.png */; };
+		83A481231AD6DBEE00905A79 /* PBHandFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83A481041AD6DBEE00905A79 /* PBHandFont.ttf */; };
+		83A481241AD6DBEE00905A79 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481051AD6DBEE00905A79 /* screenshot1.png */; };
+		83A481251AD6DBEE00905A79 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481061AD6DBEE00905A79 /* screenshot2.png */; };
+		83A481261AD6DBEE00905A79 /* screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481071AD6DBEE00905A79 /* screenshot3.png */; };
+		83A481271AD6DBEE00905A79 /* screenshot4.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481081AD6DBEE00905A79 /* screenshot4.png */; };
+		83A481281AD6DBEE00905A79 /* WhitePaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A481091AD6DBEE00905A79 /* WhitePaper.jpg */; };
+		83A481291AD6DBEE00905A79 /* wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A4810A1AD6DBEE00905A79 /* wood.jpg */; };
+		83A4812A1AD6DBEE00905A79 /* ActivityHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A4810B1AD6DBEE00905A79 /* ActivityHub.m */; };
+		83A4812B1AD6DBEE00905A79 /* Checkmark Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A4810D1AD6DBEE00905A79 /* Checkmark Filled-50.png */; };
+		83A4812C1AD6DBEE00905A79 /* Checkmark-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A4810E1AD6DBEE00905A79 /* Checkmark-64.png */; };
+		83A4812D1AD6DBEE00905A79 /* Eraser-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A4810F1AD6DBEE00905A79 /* Eraser-50.png */; };
+		83A4812E1AD6DBEE00905A79 /* Eraser-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481101AD6DBEE00905A79 /* Eraser-64.png */; };
+		83A4812F1AD6DBEE00905A79 /* Home Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481111AD6DBEE00905A79 /* Home Filled-50.png */; };
+		83A481301AD6DBEE00905A79 /* Info-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481121AD6DBEE00905A79 /* Info-50.png */; };
+		83A481311AD6DBEE00905A79 /* Marker Pen-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481131AD6DBEE00905A79 /* Marker Pen-white.png */; };
+		83A481321AD6DBEE00905A79 /* Paint Palette-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481141AD6DBEE00905A79 /* Paint Palette-50.png */; };
+		83A481331AD6DBEE00905A79 /* Reload Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481151AD6DBEE00905A79 /* Reload Filled-50.png */; };
+		83A481341AD6DBEE00905A79 /* Save As Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481161AD6DBEE00905A79 /* Save As Filled-50.png */; };
+		83A481351AD6DBEE00905A79 /* SliderKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A481171AD6DBEE00905A79 /* SliderKnob.png */; };
+		83A4813A1AD6DC0900905A79 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A481361AD6DC0900905A79 /* Main_iPad.storyboard */; };
+		83A4813B1AD6DC0900905A79 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A481381AD6DC0900905A79 /* Main_iPhone.storyboard */; };
+		83A4813D1AD6DCAA00905A79 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4813C1AD6DCAA00905A79 /* QuartzCore.framework */; };
+		83A4813F1AD6DCB400905A79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4813E1AD6DCB400905A79 /* CoreGraphics.framework */; };
+		83A481411AD6DCBE00905A79 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A481401AD6DCBE00905A79 /* CoreFoundation.framework */; };
+		83A481441AD6DD8700905A79 /* LaunchScreen 2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A481421AD6DD8700905A79 /* LaunchScreen 2.xib */; };
+		BF66608CB64D8D57DF0AFD84 /* libPods-GoSketch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 603169DCEE427BF1FA370BCA /* libPods-GoSketch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +60,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E35C4B127E9C905C7ED98C2 /* Pods-GoSketch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoSketch.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoSketch/Pods-GoSketch.release.xcconfig"; sourceTree = "<group>"; };
+		603169DCEE427BF1FA370BCA /* libPods-GoSketch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoSketch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9B7DFFB4784AAD4DE3C4D2 /* Pods-GoSketch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoSketch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoSketch/Pods-GoSketch.debug.xcconfig"; sourceTree = "<group>"; };
 		83A480CE1AD6DAAA00905A79 /* GoSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A480D21AD6DAAA00905A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A480D31AD6DAAA00905A79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83A480D51AD6DAAA00905A79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83A480D61AD6DAAA00905A79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		83A480D91AD6DAAA00905A79 /* GoSketch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoSketch.xcdatamodel; sourceTree = "<group>"; };
-		83A480DB1AD6DAAA00905A79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		83A480DC1AD6DAAA00905A79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		83A480DF1AD6DAAA00905A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83A480E11AD6DAAA00905A79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		83A480E41AD6DAAA00905A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		83A480EA1AD6DAAA00905A79 /* GoSketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoSketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A480EF1AD6DAAA00905A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A480F01AD6DAAA00905A79 /* GoSketchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoSketchTests.m; sourceTree = "<group>"; };
+		83A480FA1AD6DBEE00905A79 /* DrawPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPageViewController.m; sourceTree = "<group>"; };
+		83A480FB1AD6DBEE00905A79 /* MainSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSelectionViewController.m; sourceTree = "<group>"; };
+		83A480FC1AD6DBEE00905A79 /* MainSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSelectionViewController.h; sourceTree = "<group>"; };
+		83A480FE1AD6DBEE00905A79 /* bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar.jpg; sourceTree = "<group>"; };
+		83A480FF1AD6DBEE00905A79 /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knob.png; sourceTree = "<group>"; };
+		83A481001AD6DBEE00905A79 /* launch 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "launch 2.jpg"; sourceTree = "<group>"; };
+		83A481011AD6DBEE00905A79 /* Marker Pen-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marker Pen-50.png"; sourceTree = "<group>"; };
+		83A481021AD6DBEE00905A79 /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		83A481031AD6DBEE00905A79 /* past.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = past.png; sourceTree = "<group>"; };
+		83A481041AD6DBEE00905A79 /* PBHandFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PBHandFont.ttf; sourceTree = "<group>"; };
+		83A481051AD6DBEE00905A79 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
+		83A481061AD6DBEE00905A79 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
+		83A481071AD6DBEE00905A79 /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot3.png; sourceTree = "<group>"; };
+		83A481081AD6DBEE00905A79 /* screenshot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot4.png; sourceTree = "<group>"; };
+		83A481091AD6DBEE00905A79 /* WhitePaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WhitePaper.jpg; sourceTree = "<group>"; };
+		83A4810A1AD6DBEE00905A79 /* wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpg; sourceTree = "<group>"; };
+		83A4810B1AD6DBEE00905A79 /* ActivityHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityHub.m; sourceTree = "<group>"; };
+		83A4810D1AD6DBEE00905A79 /* Checkmark Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark Filled-50.png"; sourceTree = "<group>"; };
+		83A4810E1AD6DBEE00905A79 /* Checkmark-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark-64.png"; sourceTree = "<group>"; };
+		83A4810F1AD6DBEE00905A79 /* Eraser-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eraser-50.png"; sourceTree = "<group>"; };
+		83A481101AD6DBEE00905A79 /* Eraser-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eraser-64.png"; sourceTree = "<group>"; };
+		83A481111AD6DBEE00905A79 /* Home Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Filled-50.png"; sourceTree = "<group>"; };
+		83A481121AD6DBEE00905A79 /* Info-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info-50.png"; sourceTree = "<group>"; };
+		83A481131AD6DBEE00905A79 /* Marker Pen-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marker Pen-white.png"; sourceTree = "<group>"; };
+		83A481141AD6DBEE00905A79 /* Paint Palette-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Paint Palette-50.png"; sourceTree = "<group>"; };
+		83A481151AD6DBEE00905A79 /* Reload Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reload Filled-50.png"; sourceTree = "<group>"; };
+		83A481161AD6DBEE00905A79 /* Save As Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Save As Filled-50.png"; sourceTree = "<group>"; };
+		83A481171AD6DBEE00905A79 /* SliderKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderKnob.png; sourceTree = "<group>"; };
+		83A481181AD6DBEE00905A79 /* PBColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBColors.h; sourceTree = "<group>"; };
+		83A481191AD6DBEE00905A79 /* DrawPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPageViewController.h; sourceTree = "<group>"; };
+		83A4811A1AD6DBEE00905A79 /* ActivityHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityHub.h; sourceTree = "<group>"; };
+		83A481371AD6DC0900905A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		83A481391AD6DC0900905A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		83A4813C1AD6DCAA00905A79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		83A4813E1AD6DCB400905A79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83A481401AD6DCBE00905A79 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		83A481431AD6DD8700905A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/LaunchScreen 2.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +118,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A481411AD6DCBE00905A79 /* CoreFoundation.framework in Frameworks */,
+				83A4813F1AD6DCB400905A79 /* CoreGraphics.framework in Frameworks */,
+				83A4813D1AD6DCAA00905A79 /* QuartzCore.framework in Frameworks */,
+				BF66608CB64D8D57DF0AFD84 /* libPods-GoSketch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +141,8 @@
 				83A480D01AD6DAAA00905A79 /* GoSketch */,
 				83A480ED1AD6DAAA00905A79 /* GoSketchTests */,
 				83A480CF1AD6DAAA00905A79 /* Products */,
+				844B601C3C30658402C2C9EA /* Pods */,
+				9D87C447D0A87F187AEE83C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,13 +158,22 @@
 		83A480D01AD6DAAA00905A79 /* GoSketch */ = {
 			isa = PBXGroup;
 			children = (
+				83A480FD1AD6DBEE00905A79 /* resource */,
+				83A4810C1AD6DBEE00905A79 /* icons */,
+				83A481181AD6DBEE00905A79 /* PBColors.h */,
+				83A481191AD6DBEE00905A79 /* DrawPageViewController.h */,
+				83A480FA1AD6DBEE00905A79 /* DrawPageViewController.m */,
+				83A480FB1AD6DBEE00905A79 /* MainSelectionViewController.m */,
+				83A480FC1AD6DBEE00905A79 /* MainSelectionViewController.h */,
+				83A481381AD6DC0900905A79 /* Main_iPhone.storyboard */,
+				83A481361AD6DC0900905A79 /* Main_iPad.storyboard */,
+				83A4811A1AD6DBEE00905A79 /* ActivityHub.h */,
+				83A4810B1AD6DBEE00905A79 /* ActivityHub.m */,
 				83A480D51AD6DAAA00905A79 /* AppDelegate.h */,
 				83A480D61AD6DAAA00905A79 /* AppDelegate.m */,
-				83A480DB1AD6DAAA00905A79 /* ViewController.h */,
-				83A480DC1AD6DAAA00905A79 /* ViewController.m */,
-				83A480DE1AD6DAAA00905A79 /* Main.storyboard */,
 				83A480E11AD6DAAA00905A79 /* Images.xcassets */,
 				83A480E31AD6DAAA00905A79 /* LaunchScreen.xib */,
+				83A481421AD6DD8700905A79 /* LaunchScreen 2.xib */,
 				83A480D81AD6DAAA00905A79 /* GoSketch.xcdatamodeld */,
 				83A480D11AD6DAAA00905A79 /* Supporting Files */,
 			);
@@ -122,6 +206,64 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		83A480FD1AD6DBEE00905A79 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				83A480FE1AD6DBEE00905A79 /* bar.jpg */,
+				83A480FF1AD6DBEE00905A79 /* knob.png */,
+				83A481001AD6DBEE00905A79 /* launch 2.jpg */,
+				83A481011AD6DBEE00905A79 /* Marker Pen-50.png */,
+				83A481021AD6DBEE00905A79 /* new.png */,
+				83A481031AD6DBEE00905A79 /* past.png */,
+				83A481041AD6DBEE00905A79 /* PBHandFont.ttf */,
+				83A481051AD6DBEE00905A79 /* screenshot1.png */,
+				83A481061AD6DBEE00905A79 /* screenshot2.png */,
+				83A481071AD6DBEE00905A79 /* screenshot3.png */,
+				83A481081AD6DBEE00905A79 /* screenshot4.png */,
+				83A481091AD6DBEE00905A79 /* WhitePaper.jpg */,
+				83A4810A1AD6DBEE00905A79 /* wood.jpg */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		83A4810C1AD6DBEE00905A79 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				83A4810D1AD6DBEE00905A79 /* Checkmark Filled-50.png */,
+				83A4810E1AD6DBEE00905A79 /* Checkmark-64.png */,
+				83A4810F1AD6DBEE00905A79 /* Eraser-50.png */,
+				83A481101AD6DBEE00905A79 /* Eraser-64.png */,
+				83A481111AD6DBEE00905A79 /* Home Filled-50.png */,
+				83A481121AD6DBEE00905A79 /* Info-50.png */,
+				83A481131AD6DBEE00905A79 /* Marker Pen-white.png */,
+				83A481141AD6DBEE00905A79 /* Paint Palette-50.png */,
+				83A481151AD6DBEE00905A79 /* Reload Filled-50.png */,
+				83A481161AD6DBEE00905A79 /* Save As Filled-50.png */,
+				83A481171AD6DBEE00905A79 /* SliderKnob.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		844B601C3C30658402C2C9EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F9B7DFFB4784AAD4DE3C4D2 /* Pods-GoSketch.debug.xcconfig */,
+				2E35C4B127E9C905C7ED98C2 /* Pods-GoSketch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D87C447D0A87F187AEE83C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83A481401AD6DCBE00905A79 /* CoreFoundation.framework */,
+				83A4813E1AD6DCB400905A79 /* CoreGraphics.framework */,
+				83A4813C1AD6DCAA00905A79 /* QuartzCore.framework */,
+				603169DCEE427BF1FA370BCA /* libPods-GoSketch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83A480F41AD6DAAA00905A79 /* Build configuration list for PBXNativeTarget "GoSketch" */;
 			buildPhases = (
+				A652CCF0B0FF6B20422E702F /* Check Pods Manifest.lock */,
 				83A480CA1AD6DAAA00905A79 /* Sources */,
 				83A480CB1AD6DAAA00905A79 /* Frameworks */,
 				83A480CC1AD6DAAA00905A79 /* Resources */,
+				DBAF94F4CE9CD5CFD7BC9C5F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,9 +346,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A480E01AD6DAAA00905A79 /* Main.storyboard in Resources */,
+				83A481331AD6DBEE00905A79 /* Reload Filled-50.png in Resources */,
+				83A481281AD6DBEE00905A79 /* WhitePaper.jpg in Resources */,
+				83A481291AD6DBEE00905A79 /* wood.jpg in Resources */,
+				83A4812C1AD6DBEE00905A79 /* Checkmark-64.png in Resources */,
+				83A4811D1AD6DBEE00905A79 /* bar.jpg in Resources */,
+				83A4812F1AD6DBEE00905A79 /* Home Filled-50.png in Resources */,
+				83A481211AD6DBEE00905A79 /* new.png in Resources */,
+				83A481321AD6DBEE00905A79 /* Paint Palette-50.png in Resources */,
+				83A481201AD6DBEE00905A79 /* Marker Pen-50.png in Resources */,
+				83A4812B1AD6DBEE00905A79 /* Checkmark Filled-50.png in Resources */,
+				83A481261AD6DBEE00905A79 /* screenshot3.png in Resources */,
+				83A481441AD6DD8700905A79 /* LaunchScreen 2.xib in Resources */,
+				83A481301AD6DBEE00905A79 /* Info-50.png in Resources */,
+				83A4813B1AD6DC0900905A79 /* Main_iPhone.storyboard in Resources */,
+				83A4813A1AD6DC0900905A79 /* Main_iPad.storyboard in Resources */,
+				83A481221AD6DBEE00905A79 /* past.png in Resources */,
+				83A481271AD6DBEE00905A79 /* screenshot4.png in Resources */,
+				83A4811E1AD6DBEE00905A79 /* knob.png in Resources */,
+				83A4812E1AD6DBEE00905A79 /* Eraser-64.png in Resources */,
 				83A480E51AD6DAAA00905A79 /* LaunchScreen.xib in Resources */,
+				83A481231AD6DBEE00905A79 /* PBHandFont.ttf in Resources */,
+				83A481311AD6DBEE00905A79 /* Marker Pen-white.png in Resources */,
+				83A4811F1AD6DBEE00905A79 /* launch 2.jpg in Resources */,
+				83A481351AD6DBEE00905A79 /* SliderKnob.png in Resources */,
+				83A481251AD6DBEE00905A79 /* screenshot2.png in Resources */,
 				83A480E21AD6DAAA00905A79 /* Images.xcassets in Resources */,
+				83A4812D1AD6DBEE00905A79 /* Eraser-50.png in Resources */,
+				83A481341AD6DBEE00905A79 /* Save As Filled-50.png in Resources */,
+				83A481241AD6DBEE00905A79 /* screenshot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,14 +387,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A652CCF0B0FF6B20422E702F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DBAF94F4CE9CD5CFD7BC9C5F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoSketch/Pods-GoSketch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83A480CA1AD6DAAA00905A79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				83A480DA1AD6DAAA00905A79 /* GoSketch.xcdatamodeld in Sources */,
+				83A4811B1AD6DBEE00905A79 /* DrawPageViewController.m in Sources */,
+				83A4812A1AD6DBEE00905A79 /* ActivityHub.m in Sources */,
+				83A4811C1AD6DBEE00905A79 /* MainSelectionViewController.m in Sources */,
 				83A480D71AD6DAAA00905A79 /* AppDelegate.m in Sources */,
-				83A480DD1AD6DAAA00905A79 /* ViewController.m in Sources */,
 				83A480D41AD6DAAA00905A79 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,20 +453,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		83A480DE1AD6DAAA00905A79 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83A480DF1AD6DAAA00905A79 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		83A480E31AD6DAAA00905A79 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				83A480E41AD6DAAA00905A79 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		83A481361AD6DC0900905A79 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A481371AD6DC0900905A79 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		83A481381AD6DC0900905A79 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A481391AD6DC0900905A79 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		83A481421AD6DD8700905A79 /* LaunchScreen 2.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A481431AD6DD8700905A79 /* Base */,
+			);
+			name = "LaunchScreen 2.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,6 +568,7 @@
 		};
 		83A480F51AD6DAAA00905A79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9B7DFFB4784AAD4DE3C4D2 /* Pods-GoSketch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoSketch/Info.plist;
@@ -357,6 +579,7 @@
 		};
 		83A480F61AD6DAAA00905A79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E35C4B127E9C905C7ED98C2 /* Pods-GoSketch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoSketch/Info.plist;
@@ -418,6 +641,7 @@
 				83A480F61AD6DAAA00905A79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83A480F71AD6DAAA00905A79 /* Build configuration list for PBXNativeTarget "GoSketchTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +650,7 @@
 				83A480F91AD6DAAA00905A79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
